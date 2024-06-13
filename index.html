@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заголовок с названием и ссылками</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Подключаем файл со стилями -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #494847; /* оранжевый цвет */
+    }
+  </style>
+  
+</head>
+<body>
+ 
+  <div class="header-container"> 
+    <h1 class="header-title">Моё хобби</h1>    
+    <div class="header-links">
+      <a href="#cards" class="link-1">Факты</a>
+      <a href="#gallery" class="link-2">Галерея</a>
+      <a href="#contacts" class="link-3">Контакты</a>
+    </div>
+  </div>
+   
+  <div class="navigation-container" id="navigation">
+    <div class="navigation-text">
+        <p>Сайт о моём хобби:</p>
+        <h1>музыка</h1> 
+    </div>
+    <div class="navigation-Button">
+      <button>Написать отзыв</button>
+    </div>
+    <div class="slider middle">
+      <div class="slides">
+         <input type="radio" name="r" id="r1" checked>
+         <input type="radio" name="r" id="r2">
+         <input type="radio" name="r" id="r3">
+         <input type="radio" name="r" id="r4">
+         
+         <div class="slide s1">
+            <img src="/img/s1.png" alt="Изображение" class="img">
+         </div>
+         <div class="slide">
+            <img src="/img/s2.png" alt="Изображение" class="img">
+         </div>
+         <div class="slide">
+            <img src="/img/s3.png" alt="Изображение" class="img">
+         </div>
+         <div class="slide">
+            <img src="/img/s4.png" alt="Изображение" class="img">
+         </div>
+      </div>
+      <div class="navigation">
+         <label for="r1" class="bar"></label>
+         <label for="r2" class="bar"></label>
+         <label for="r3" class="bar"></label>
+         <label for="r4" class="bar"></label>
+      </div>
+   </div>
+  </div>
+
+
+  <div class="cards-container" id="cards">
+    <div class="cards-text">
+      <p>Интерестные факты о:</p>
+      <h3>музыкальных инструментах</h3>    
+  </div>
+  <div class="cards">
+    <div class="card-1">
+      <div class="red-card">
+        <img src="img/400x400_cards/acustic_gitar.png"> 
+    </div>
+      <div class="red-card-text">
+        <p>Акустическая гитара:</p>
+        <h5>Инструмент с натянутыми струнами
+           над полостью корпуса,
+            создающий звук за счет резонанса
+             и не требующий усиления.</h5>
+       </div>
+    </div>
+    <div class="card-2">
+      <div class="blue-card">
+        <div class="blue-card">
+          <img src="img/400x400_cards/bass_gitar.png">
+         </div>
+         <div class="blue-card-text">
+           <p>Бас-гитара:</p>
+           <h5>Низкочастотный инструмент
+             с низким звучанием,
+              играющий ключевую
+               роль в создании
+                ритмической и 
+                гармонической основы музыки.</h5>
+          </div>
+      </div>
+    </div>
+    <div class="card-3">
+      <div class="yellow-card">
+        <img src="img/400x400_cards/electro_gitar.png">
+
+      </div>
+       <div class="yellow-card-text">
+          <p>Электрогитара: </p>
+          <h5>Инструмент с металлическими струнами,
+             который создает звук через электрическое
+              усиление магнитных звукоснимателей.</h5>
+         </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="img-container">
+    <div class="gallery" id="gallery">
+     <div class="gallery-text">
+      <p>Изображение музыка</p>
+      <div class="red">
+        <img src="img/260x260_img/buy.png">
+      </div>
+      <div class="green">
+        <img src="img/260x260_img/play.png">
+      </div>
+      <div class="pink">
+        <img src="img/260x260_img/break.jpg">
+      </div>
+      <div class="blue">
+        <img src="img/260x260_img/girl.png">
+      </div>
+     </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+      <h>Оставте о нас отзыв</h>
+      <h1>Дополнительный текст</h1>
+      <button>Написать отзыв</button>
+      <div class="green-box"></div>
+    </div>
+
+    <div class="footer">
+      <div class="ellipse-1"></div>
+      <div class="ellipse-2"></div>
+      <div class="ellipse-3"></div>
+      <h>Связаться</h>
+      <h1><a href="#gallery" class="link-2">Галерея</a></h1>
+      <h2><a href="#cards" class="link-1">Факты</a></h2>
+      <h3><a href="#navigation" хобби>О хобби</a></h3>
+      <h4>© МОЁ ХОББИ, Inc. 2024</h4>
+
+    </div>
+
+
+  </div>
+</body>
+</html>
+      
+
+
+
+
